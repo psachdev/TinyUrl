@@ -10,7 +10,7 @@ cache:
 
 env:
   global:
-    - ANDROID_API_LEVEL=22
+    - ANDROID_API_LEVEL=27
     - EMULATOR_API_LEVEL=22
     - ANDROID_BUILD_TOOLS_VERSION=27.0.3
     - ANDROID_ABI=armeabi-v7a
@@ -49,6 +49,8 @@ before_script:
 before_install:
 - yes | sdkmanager "platforms;android-27"
 
+licenses:
+    - 'android-sdk-license-.+'
 script:
   #-  ./gradlew clean check connectedCheck -x library:signArchives -PdisablePreDex
   - ./gradlew clean --stacktrace
