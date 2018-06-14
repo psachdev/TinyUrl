@@ -7,6 +7,7 @@ public class SampleTest {
 
     @Test
     public void testGetSortedConversations() {
-        Assert.assertEquals(true, true);
+        int x = 10;
+        Assert.assertEquals(10, x);
     }
 }
