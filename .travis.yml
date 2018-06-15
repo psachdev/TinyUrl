@@ -56,4 +56,4 @@ script:
   - ./gradlew clean --stacktrace
   #- ./gradlew assembleDebug
   - ./gradlew assembleDebugAndroidTest --stacktrace
-  - ./gradlew connectedAndroidTest --stacktrace
+  - ./gradlew connectedAndroidTest
