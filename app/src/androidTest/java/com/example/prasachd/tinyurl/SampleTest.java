@@ -6,14 +6,14 @@ import junit.framework.Assert;
 public class SampleTest {
 
     @Test
-    public void testSuccessfull() {
+    public void testSuccess1() {
         int x = 10;
         Assert.assertEquals(10, x);
     }
 
     @Test
-    public void testFail() {
-        int x = 11;
+    public void testSuccess2() {
+        int x = 10;
         Assert.assertEquals(10, x);
     }
 }
